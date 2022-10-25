@@ -98,7 +98,7 @@ int main(){
   string miMensaje = tomarMensaje();
   cout << "Este es mi mensaje: " << miMensaje << endl;
 
-  cout << "Unir dos palabras: " << unirPalabras("Uno Dos") << endl;
+  cout << "Unir dos palabras: " << unirPalabras("Uno", "Dos") << endl;
   cout << "Unir tres palabras: " << unirPalabras("Uno ", "Dos ", "Tres") << endl;
 
   return 0;
